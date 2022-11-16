@@ -1,2 +1,15 @@
-storage:
-  path: C:\Users\SivakumarK\Documents\FfmpegTrial\video_out
+storage_path: C:\Users\SivakumarK\Documents\FfmpegTrial\video_out
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761
+
+spring:
+  config:
+    import: configserver:http://localhost:8888
+  application:
+    name: CONVERTER-SERVICE
