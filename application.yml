@@ -13,3 +13,7 @@ spring:
     import: configserver:http://localhost:8888
   application:
     name: CONVERTER-SERVICE
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
