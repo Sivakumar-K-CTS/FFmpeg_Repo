@@ -7,12 +7,6 @@ eureka:
       default-zone: http://localhost:8761
 
 spring:
-  config:
-    import: configserver:http://localhost:8888
-  application:
-    name: CONVERTER-SERVICE
-
-
   servlet:
     multipart: 
       max-file-size: 10MB
