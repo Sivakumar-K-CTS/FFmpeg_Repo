@@ -17,3 +17,4 @@ spring:
       max-request-size: 10MB
       
 outPath: C:\Users\SivakumarK\Documents\FfmpegTrial\video_out
+ffmpegCmd: ffmpeg -i  
